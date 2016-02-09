@@ -7,4 +7,6 @@ RUN apk update && \
 
 COPY ./haproxy.cfg /etc/haproxy/haproxy.cfg
 
+EXPOSE 8080
+
 CMD ["haproxy", "-db", "-f", "/etc/haproxy/haproxy.cfg"]
