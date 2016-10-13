@@ -1,4 +1,5 @@
 = HAProxy
+
 image::https://images.microbadger.com/badges/image/konstruktoid/haproxy.svg[link="https://microbadger.com/images/konstruktoid/haproxy"]
 
 [source]
