@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-LABEL org.label-schema.name="haproxy"
+LABEL org.label-schema.name="haproxy" \
       org.label-schema.vcs-url="git@github.com:konstruktoid/HAProxy_Build.git"
 
 RUN apk update && \
