@@ -1,4 +1,4 @@
-FROM alpine:3.3
+FROM konstruktoid/alpine
 
 LABEL org.label-schema.name="haproxy" \
       org.label-schema.vcs-url="git@github.com:konstruktoid/HAProxy_Build.git"
